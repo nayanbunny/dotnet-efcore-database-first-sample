@@ -16,4 +16,4 @@ Language : `C#` <br/>
 [EFCore - Get Started](https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/intro?view=aspnetcore-6.0)<br/>
 [EFCore - Model from DB](https://www.entityframeworktutorial.net/efcore/create-model-for-existing-database-in-ef-core.aspx)
 
-### :fire: Happy Coding :simple_smile:
+### :fire: Happy Coding

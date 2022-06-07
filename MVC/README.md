@@ -23,8 +23,6 @@ Language : `C#` <br/>
 - Microsoft SQL Server
 - Azure Data Studio / SQL Server Management Studio (SSMS) / SSDT for Visual Studio
 
-<br/>
-
 ## **Execution Steps**
 
 1. Execute `efcore-dbfirst-approach.sql` script from `Scripts` folder on `SQL Server` to setup `Database` with sample data.
@@ -67,6 +65,4 @@ Language : `C#` <br/>
 [EFCore - Get Started](https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/intro?view=aspnetcore-6.0)<br/>
 [EFCore - Model from DB](https://www.entityframeworktutorial.net/efcore/create-model-for-existing-database-in-ef-core.aspx)
 
-<br/>
-
-### :fire: Happy Coding :simple_smile:
+### :fire: Happy Coding
