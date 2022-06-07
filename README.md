@@ -1,6 +1,6 @@
 <div style="color:cornflowerblue">
 
-<h1>DotNet Entity Framework Core - Database First Approach Sample</h1>
+# DotNet Entity Framework Core - Database First Approach Sample
 
 </div>
 
@@ -25,15 +25,11 @@ Language : `C#` <br/>
   - EmployeeSkills (Relation Mapping between Employee and Skill)
 - Each Employee belongs to a department and can have multiple skills.
 
----
-
 ## **Execution & Implementation Steps**
 
-### MVC Sample - [DotNet MVC Entity Framework Core](./MVC/README.md)
+#### MVC Sample - [DotNet MVC Entity Framework Core](./MVC/README.md)
 
-### Razor Sample - [DotNet Razor Entity Framework Core](./Razor/README.md)
-
----
+#### Razor Sample - [DotNet Razor Entity Framework Core](./Razor/README.md)
 
 ## References
 
@@ -43,4 +39,4 @@ Language : `C#` <br/>
 [EFCore - Get Started](https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/intro?view=aspnetcore-6.0)<br/>
 [EFCore - Model from DB](https://www.entityframeworktutorial.net/efcore/create-model-for-existing-database-in-ef-core.aspx)
 
-### :fire: Happy Coding.
+### :fire: Happy Coding :simple_smile:
