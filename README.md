@@ -27,9 +27,9 @@ Language : `C#` <br/>
 
 ## **Execution & Implementation Steps**
 
-#### MVC Sample - [DotNet MVC Entity Framework Core](./MVC/README.md)
+#### MVC Sample - [DotNet MVC Entity Framework Core](./MVC)
 
-#### Razor Sample - [DotNet Razor Entity Framework Core](./Razor/README.md)
+#### Razor Sample - [DotNet Razor Entity Framework Core](./Razor)
 
 ## References
 
