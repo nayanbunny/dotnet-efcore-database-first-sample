@@ -5,6 +5,8 @@
         // Projects
         public const string MvcProjectName = "DotNet MVC EFCore - Database First";
         public const string MvcProjectTitle = "MVC EFCore - Database First";
+        public const string RazorProjectName = "DotNet Razor Pages EFCore - Database First";
+        public const string RazorProjectTitle = "Razor Pages EFCore - Database First";
 
         // Configurations
         public const string ConfigurationFileName = "appsettings.json";

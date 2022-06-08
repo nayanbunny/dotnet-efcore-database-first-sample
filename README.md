@@ -27,9 +27,9 @@ Language : `C#` <br/>
 
 ## **Execution & Implementation Steps**
 
-#### MVC Sample - [DotNet MVC Entity Framework Core](./MVC)
+#### MVC Sample - [DotNet MVC Entity Framework Core](./MVC/)
 
-#### Razor Sample - [DotNet Razor Entity Framework Core](./Razor)
+#### Razor Pages Sample - [DotNet Razor Entity Framework Core](./RazorPages/)
 
 ## References
 
@@ -37,6 +37,7 @@ Language : `C#` <br/>
 [.Net Core MVC](https://docs.microsoft.com/en-us/aspnet/core/mvc/overview?view=aspnetcore-6.0)<br/>
 [.Net Core Razor Pages](https://docs.microsoft.com/en-us/aspnet/core/razor-pages/?view=aspnetcore-6.0&tabs=visual-studio)<br/>
 [EFCore - Get Started](https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/intro?view=aspnetcore-6.0)<br/>
-[EFCore - Model from DB](https://www.entityframeworktutorial.net/efcore/create-model-for-existing-database-in-ef-core.aspx)
+[EFCore - Model from DB](https://www.entityframeworktutorial.net/efcore/create-model-for-existing-database-in-ef-core.aspx)<br/>
+[EF Core - Razor Pages](https://docs.microsoft.com/en-us/aspnet/core/data/ef-rp/intro?view=aspnetcore-6.0&tabs=visual-studio)
 
 ### :fire: Happy Coding

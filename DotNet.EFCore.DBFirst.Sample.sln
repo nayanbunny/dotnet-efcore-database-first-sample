@@ -7,16 +7,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MVC", "MVC", "{777DFA6D-9D5
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{4F9552ED-E96D-4042-BED7-1017E6ADE88F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Razor", "Razor", "{DED72023-B62D-4D87-859A-247F53DA15E9}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RazorPages", "RazorPages", "{DED72023-B62D-4D87-859A-247F53DA15E9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{1060B84B-877F-43ED-B20C-0812F1C037BB}"
 	ProjectSection(SolutionItems) = preProject
 		Scripts\efcore-dbfirst-approach.sql = Scripts\efcore-dbfirst-approach.sql
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet.EFCore.DBFirst.Sample.Library", "Library\DotNet.EFCore.DBFirst.Sample.Library\DotNet.EFCore.DBFirst.Sample.Library.csproj", "{F493087E-76F5-4BF0-902E-EED77085A92B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet.EFCore.DBFirst.Sample.Library", "Library\DotNet.EFCore.DBFirst.Sample.Library\DotNet.EFCore.DBFirst.Sample.Library.csproj", "{F493087E-76F5-4BF0-902E-EED77085A92B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet.EFCore.DBFirst.Sample.WebApp", "MVC\DotNet.EFCore.DBFirst.Sample.WebApp\DotNet.EFCore.DBFirst.Sample.WebApp.csproj", "{D4C5946D-538E-4443-8EC5-5E53A4F5BB08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet.EFCore.DBFirst.Sample.MvcApp", "MVC\DotNet.EFCore.DBFirst.Sample.MvcApp\DotNet.EFCore.DBFirst.Sample.MvcApp.csproj", "{D4C5946D-538E-4443-8EC5-5E53A4F5BB08}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet.EFCore.DBFirst.Sample.RazorApp", "RazorPages\DotNet.EFCore.DBFirst.Sample.RazorApp\DotNet.EFCore.DBFirst.Sample.RazorApp.csproj", "{8BA59D68-B5F6-4918-BE1F-1CAFC648F73D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +34,10 @@ Global
 		{D4C5946D-538E-4443-8EC5-5E53A4F5BB08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4C5946D-538E-4443-8EC5-5E53A4F5BB08}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4C5946D-538E-4443-8EC5-5E53A4F5BB08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BA59D68-B5F6-4918-BE1F-1CAFC648F73D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BA59D68-B5F6-4918-BE1F-1CAFC648F73D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BA59D68-B5F6-4918-BE1F-1CAFC648F73D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BA59D68-B5F6-4918-BE1F-1CAFC648F73D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +45,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{F493087E-76F5-4BF0-902E-EED77085A92B} = {4F9552ED-E96D-4042-BED7-1017E6ADE88F}
 		{D4C5946D-538E-4443-8EC5-5E53A4F5BB08} = {777DFA6D-9D50-47DE-B4C2-17DC96BB5968}
+		{8BA59D68-B5F6-4918-BE1F-1CAFC648F73D} = {DED72023-B62D-4D87-859A-247F53DA15E9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {900C95AE-5CD3-4815-928E-9D1F3F65A0EA}
