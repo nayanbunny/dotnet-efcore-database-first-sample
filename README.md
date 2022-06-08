@@ -29,7 +29,7 @@ Language : `C#` <br/>
 
 #### MVC Sample - [DotNet MVC Entity Framework Core](./MVC/)
 
-#### Razor Pages Sample - [DotNet Razor Entity Framework Core](./RazorPages/)
+#### Razor Pages Sample - [DotNet Razor Pages Entity Framework Core](./RazorPages/)
 
 ## References
 
