@@ -34,7 +34,7 @@ Language : `C#` <br/>
    <pre><code style="color:#00aaaa">"ConnectionStrings": {
        "DefaultConnection": "Server={ServerName};Database={DatabaseName};Integrated Security=True"
    }</code></pre>
-3. Run `DotNet.EFCore.DBFirst.Sample.RazorApp` project. Check `CRUD (Create-Read-Update-Delete)` operations against database using `Entity Framework Core`.
+3. Run `DotNet.EFCore.DatabaseFirst.RazorApp` project. Check `CRUD (Create-Read-Update-Delete)` operations against database using `Entity Framework Core`.
 
 ## **Implementation Steps**
 
@@ -49,7 +49,7 @@ Language : `C#` <br/>
    <pre><code style="color:#00aaaa">"ConnectionStrings": {
        "DefaultConnection": "{SQL Connection String}"
    }</code></pre>
-5. Launch `Package Manager Console`. Choose project with EF NuGet Packages Installed (E.g., `DotNet.EFCore.DBFirst.Sample.RazorApp`) as `Default` and `Startup` Project.
+5. Launch `Package Manager Console`. Choose project with EF NuGet Packages Installed (E.g., `DotNet.EFCore.DatabaseFirst.RazorApp`) as `Default` and `Startup` Project.
    <pre><code style="color:#00aaaa">Visual Studio IDE --> Tools --> NuGet Package Manager --> Package Manager Console</code></pre>
 6. Scaffold Database Context using `Scaffold-DbContext` command. This will create `Models`, `DbContext` in specified output directory as per existing `database schema`.
    <pre><code style="color:#00aaaa">Scaffold-DbContext "{SQL Connection String}" Microsoft.EntityFrameworkCore.SqlServer -OutputDir {Folder Name}</code></pre>
