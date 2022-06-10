@@ -61,6 +61,7 @@ Language : `C#` <br/>
 11. Create `Razor Page` under `Pages` with folder organization with either `Razor Page with Entity Framework Core (CRUD)` or `Razor Page Empty`.
 12. [OPTIONAL] Implement either `Repository/Unit of Work(UoW)/Factory Pattern etc`., to separte operations based on entity using injected `DbContext`.
 13. Pass transactional data to `Pages` using `Models`.
+14. Run `DotNet.EFCore.DatabaseFirst.RazorApp` project. Check `CRUD (Create-Read-Update-Delete)` operations against database using `Entity Framework Core`.
 
 ## References
 

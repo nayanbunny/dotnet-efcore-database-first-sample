@@ -68,6 +68,7 @@ Language : `C#` <br/>
 10. Now `DbContext` can be injected in `Controller` and can be used to access database.
 11. Implement either `Repository/Unit of Work(UoW)/Factory Pattern etc`., to separte operations based on entity using injected `DbContext`.
 12. Pass transactional data to `Views` using `Models`.
+13. Run `DotNet.EFCore.DatabaseFirst.MvcApp` project. Check `CRUD (Create-Read-Update-Delete)` operations against database using `Entity Framework Core`.
 
 ## References
 
